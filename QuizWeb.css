@@ -1,0 +1,79 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+
+.header {
+    text-align: center;
+    color: white;
+    background-color: darkblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main-div {
+    width : 100vw;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color:steelblue;
+}
+.inner-div {
+    width: 40vw;
+    background-color:white;
+    color:darkblue;
+    padding: 40px 80px;
+    border-radius: 10px;
+    box-shadow:0 10px gray;
+}
+.inner-div h3 {
+    font-size: 30px;
+    font-weight: 400;
+    margin:0 0 20px 0;
+}
+.inner-div li{
+    font-size: 25px;
+    font-weight: 200;
+    margin-top: 10px;
+    list-style: none;
+}
+input {
+    cursor: pointer;
+}
+button {
+    font-size: 20px;
+    background-color:cornsilk;
+    color:darkblue;
+    border-radius: 10px;
+    padding: 15px 30px;
+    border: 2px solid black;
+    display: block;
+    margin:auto;
+    margin-top: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: blue;
+    color:cornsilk;
+}
+button:active {
+    background-color: skyblue;
+}
+
+.inner-div2 {
+    width: 40vw;
+    background-color:burlywood;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow:0 10px gray;
+    display:none;
+
+}
+.inner-div2 p {
+    color:crimson;
+    font-size: 25px;
+    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

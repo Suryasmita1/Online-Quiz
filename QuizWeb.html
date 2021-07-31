@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Online Quiz</title>
+        <link rel="stylesheet" href="QuizWeb.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1>Front-End Basics Quiz</h1>
+        </div>
+        <div class="main-div">
+            <div class="inner-div" id="inner-div">
+                <h3 class="question" id="question">Question here</h3>
+                <ul>
+                    <li>
+                        <input type="radio" name="answer" id="ans1" class="answer">
+                        <label for="ans1" id="opt1">Answer Option 1</label>
+                    </li>
+
+                    <li>
+                        <input type="radio" name="answer" id="ans2" class="answer">
+                        <label for="ans2" id="opt2">Answer Option 2</label>
+                    </li>
+
+                    <li>
+                        <input type="radio" name="answer" id="ans3" class="answer">
+                        <label for="ans3" id="opt3">Answer Option 2</label>
+                    </li>
+
+                    <li>
+                        <input type="radio" name="answer" id="ans4" class="answer">
+                        <label for="ans4" id="opt4">Answer Option 2</label>
+                    </li>
+                </ul>
+
+                <button id="submit">SUBMIT</button>
+
+            </div>
+            <div class="inner-div2" id="inner-div2">
+                <p id="score"></p>
+            </div>
+        </div>
+        <script src="QuizWeb.js"></script>
+    </body>
+</html>
